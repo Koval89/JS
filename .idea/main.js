@@ -49,4 +49,10 @@ let c = true
 console.log(typeof a)
 console.log(typeof b)
 console.log(typeof c)
+let nameUser= prompt('enter your name last name and age');
+console.log(nameUser);
+if(!!!nameUser){
+    alert('ENTER YOYR DATA');
+}
+
 
