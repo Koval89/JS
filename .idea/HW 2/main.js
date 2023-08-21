@@ -174,34 +174,33 @@
 //     {title: 'Frontend', monthDuration: 4}
 // ];
 // console.log(coursesAndDurationArray)
-// // let coursesAndDurationArray=prompt()
-// if (coursesAndDurationArray[0].monthDuration >=5){
-//     console.log('Super')
-// }else {
-//     console.log('not great')
-// };
-// if (coursesAndDurationArray[1].monthDuration >=5){
-//     console.log('Super')
-// }else {
-//     console.log('not great')
-// };
-// if (coursesAndDurationArray[2].monthDuration >=5){
-//     console.log('Super')
-// }else {
-//     console.log('not great')
-// };
-// if (coursesAndDurationArray[3].monthDuration >=5){
-//     console.log('Super')
-// }else {
-//     console.log('not great')
-// };
-// if (coursesAndDurationArray[4].monthDuration >=5){
-//     console.log('Super')
-// }else {
-//     console.log('not great')
-// };
-// if (coursesAndDurationArray[5].monthDuration >=5){
-//     console.log('Super')
-// }else {
-//     console.log('not great')
-// };
+if (coursesAndDurationArray[0].monthDuration >=5){
+    console.log('Super')
+}else {
+    console.log('not great')
+};
+if (coursesAndDurationArray[1].monthDuration >=5){
+    console.log('Super')
+}else {
+    console.log('not great')
+};
+if (coursesAndDurationArray[2].monthDuration >=5){
+    console.log('Super')
+}else {
+    console.log('not great')
+};
+if (coursesAndDurationArray[3].monthDuration >=5){
+    console.log('Super')
+}else {
+    console.log('not great')
+};
+if (coursesAndDurationArray[4].monthDuration >=5){
+    console.log('Super')
+}else {
+    console.log('not great')
+};
+if (coursesAndDurationArray[5].monthDuration >=5){
+    console.log('Super')
+}else {
+    console.log('not great')
+};
