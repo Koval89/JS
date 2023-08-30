@@ -122,3 +122,4 @@
 // }
 // console.log(sum1(1,2,10))
 // console.log(sum1(22,11,35))
+//
