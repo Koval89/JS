@@ -1,8 +1,8 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 
-// let calc=(a, b) => a*b;
+// let calc=(a, b) => a * b;
 //
-// console.log(calc(a=11, b=25));
+// console.log(calc(11, 25));
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 
@@ -131,17 +131,17 @@
 
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 
-const sum = (arr) =>{
-    let result = 0
-    for (let i = 0; i < arr.length; i++){
-result = result + arr[i]
-    }
-    return result;
-
-}
-
-console.log(sum([1,2,10]))
-console.log(sum([22,11,35]))
+// const sum = (arr) =>{
+//     let result = 0
+//     for (let i = 0; i < arr.length; i++){
+// result = result + arr[i]
+//     }
+//     return result;
+//
+// }
+//
+// console.log(sum([1,2,10]))
+// console.log(sum([22,11,35]))
 
 
 
