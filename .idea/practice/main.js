@@ -375,3 +375,4 @@ if (coursesAndDurationArray[5].monthDuration >= 5) {
 } else {
     console.log('you may better')
 }
+
