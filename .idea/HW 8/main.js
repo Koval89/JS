@@ -105,8 +105,8 @@ function Car (model, producer, year, maxSpeed, volume) {
     this.info = function () {
         console.log('***** INFO *****');
         for (const key in this) {
-            if (typeof this[key] === 'function') {                //ці дві строчки для того щоб прибрати лишнє
-                continue;                                        //ці дві строчки для того щоб прибрати лишнє
+            if (typeof this[key] === 'function') {
+                continue;
             }
             console.log(`${key.toUpperCase()}: `, this[key]);
         }
@@ -165,8 +165,8 @@ class Car2  {
     info() {
         console.log('***** INFO *****');
         for (const key in this) {
-            if (typeof this[key] === 'function') {                //ці дві строчки для того щоб прибрати лишнє
-                continue;                                        //ці дві строчки для того щоб прибрати лишнє
+            if (typeof this[key] === 'function') {
+                continue;
             }
             console.log(`${key.toUpperCase()}: `, this[key]);
         }
