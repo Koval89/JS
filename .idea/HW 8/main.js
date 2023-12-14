@@ -205,17 +205,7 @@ car2.info();
 
 
 
-// let moment = new Date().getTime()
-// let arrayWithGrn = JSON.parse(localStorage.getItem('grn')) || [{prise: 100, moment}];
-// let newPrice;
-// let lastItem = arrayWithGrn[arrayWithGrn.length - 1];
-// let timeDifference = moment - lastItem.moment;
-//
-// (timeDifference > 10000) ? newPrice = lastItem.prise + 10 : newPrice = lastItem.prise;
-//
-// arrayWithGrn.push({prise: newPrice, moment})
-// localStorage.setItem('grn', JSON.stringify(arrayWithGrn))
-// document.querySelector('.number2').innerHTML = `${newPrice}грн`;
+
 
 
 

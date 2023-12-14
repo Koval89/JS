@@ -332,47 +332,229 @@
 //     - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен його елемент на тривалість навчання.
 //     У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
 
-let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
-if (coursesAndDurationArray[0].monthDuration >= 5) {
-    console.log('Super')
-} else {
-    console.log('you may better')
-}
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
+// if (coursesAndDurationArray[0].monthDuration >= 5) {
+//     console.log('Super')
+// } else {
+//     console.log('you may better')
+// }
+//
+// if (coursesAndDurationArray[1].monthDuration >= 5) {
+//     console.log('Super')
+// } else {
+//     console.log('you may better')
+// }
+//
+// if (coursesAndDurationArray[2].monthDuration >= 5) {
+//     console.log('Super')
+// } else {
+//     console.log('you may better')
+// }
+//
+// if (coursesAndDurationArray[3].monthDuration >= 5) {
+//     console.log('Super')
+// } else {
+//     console.log('you may better')
+// }
+//
+// if (coursesAndDurationArray[4].monthDuration >= 5) {
+//     console.log('Super')
+// } else {
+//     console.log('you may better')
+// }
+//
+// if (coursesAndDurationArray[5].monthDuration >= 5) {
+//     console.log('Super')
+// } else {
+//     console.log('you may better')
+// }
 
-if (coursesAndDurationArray[1].monthDuration >= 5) {
-    console.log('Super')
-} else {
-    console.log('you may better')
-}
+// - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 
-if (coursesAndDurationArray[2].monthDuration >= 5) {
-    console.log('Super')
-} else {
-    console.log('you may better')
-}
+// function calc (a,b) {
+//     return (a+b)
+//
+// }
+//
+// console.log(calc(20,30))
 
-if (coursesAndDurationArray[3].monthDuration >= 5) {
-    console.log('Super')
-} else {
-    console.log('you may better')
-}
+// let calc = (a,b) => (a+b)
+//
+// console.log(calc(20,30))
 
-if (coursesAndDurationArray[4].monthDuration >= 5) {
-    console.log('Super')
-} else {
-    console.log('you may better')
-}
 
-if (coursesAndDurationArray[5].monthDuration >= 5) {
-    console.log('Super')
-} else {
-    console.log('you may better')
-}
 
+// - створити функцію яка обчислює та повертає площу кола з радіусом r
+
+// function calc (P,R,){
+//     return (P*R*2)
+// }
+//
+// console.log(calc(20,30))
+
+// - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
+// function calc (PI,R,H) {
+//     return (PI*R*H*2)
+// }
+//
+// console.log(calc(20,30,40))
+// - створити функцію яка приймає масив та виводить кожен його елемент
+// function enyItem (arr) {
+//     for (const item of arr) {
+//         console.log('part Of item :', item)
+//     }
+// }
+// enyItem(['olya','petya','kokos',25,26,true])
+
+
+// - створити функцію яка створює параграф з текстом. Текст задати через аргумент
+
+// function createNewText(text, car){
+//     document.write(`<h1>${text}</h1> <h1>${car}</h1>`)
+// }
+// createNewText('hello okten', 'subaru')
+
+
+// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
+
+// function createUlWithLi3 (tea, car, color) {
+//   document.write( ` <ol>
+//         <li>${tea}</li>
+//         <li>${car}</li>
+//         <li>${color}</li>
+//     </ol>`)
+// }
+// createUlWithLi3('kokos', 'geep', 'green')
+
+// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
+// Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+
+// function createUlWithLi(text,number){
+//     for (let i=0; i<4; i++){
+//         document.write(`<ul>
+// <li>${text} ${number}</li>
+// </ul>`)
+//     }
+// }
+// createUlWithLi('hello',123)
+
+// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
+// function element (arr){
+//     for (const item of arr) {
+//         document.write(`<ul>
+//                         <li>${item}</li>
+// </ul>`)
+//
+//     }
+//
+// }
+// element(['hello okten',22,33,true,false])
+
+
+
+
+// - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ.
+// Для кожного об'єкту окремий блок.
+
+// let users = [
+//     {name: 'vasya', age: 31, id: 1},
+//     {name: 'petya', age: 30, id: 2},
+//     {name: 'kolya', age: 29, id: 3},
+//     {name: 'olya', age: 28, id: 4},
+//     {name: 'max', age: 30, id: 5},
+//     {name: 'anya', age: 31, id: 6},
+//
+// ];
+// function print(arr){
+//     for (const users of arr) {
+//         document.write(`<div>
+//                         <p>name:${users.name}</p>
+//                         <p>age:${users.age}</p>
+//                         <p>id:${users.id}</p>
+//
+// </div>`)
+//     }
+// }
+// print(users)
+
+
+
+// - створити функцію яка повертає найменьше число з масиву
+
+// function numberMin (number) {
+//     let min = number[0];
+//     for (let i=0; i<number.length; i ++){
+//         if (number[i] < min) {
+//             min = number[i]
+//         }
+//     }
+//     return min
+// }
+//
+// console.log(numberMin([100,200,300,4]))
+
+
+
+// function userFilter (number){
+//     let min = number[0];
+//     for (let i=1; i<number.length; i++){
+//         if(number[i]< min){
+//             min = number[i]
+//         }
+//     }
+//     return min;
+// }
+//
+// console.log(userFilter([2,5,10,20,100,0]))
+
+
+
+// - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
+
+// function sum () {
+//     const arr = Array.from(arguments)
+//     let result = 0
+//     for (const number of arr) {
+//         result = result + number
+//     }
+//     return result
+// }
+//
+// console.log(sum(1,2,10,20))
+
+
+
+
+// - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
+// Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
+
+// function swap(arr,index3,index4) {
+//     const numIndex3 = arr[index3]
+//     const numIndex4 = arr[index4]
+//     arr[index3] = numIndex4
+//     arr[index4] = numIndex3
+//     return arr
+// }
+//
+// console.log(swap([11,22,33,44],2,3))
+
+// - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
+// Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
+
+
+
+let  arr = [11]
+arr [1]=22
+console.log(Array.isArray(arr))
+console.log(arr.length)
+console.log(arr)
+arr.push('asda', true, {})
+console.log(arr)
