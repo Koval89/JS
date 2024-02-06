@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="main.js"></script>
+
+<form name="f1">
+    <input type="text" placeholder="username" name="username">
+    <input type="number" placeholder="user age" name="age">
+<!--    <input type="submit" value=" typ btn save">-->
+    <button>save</button>
+</form>
+
+<button id = "btn-show-all">show all users</button>
+<script>
+
+    console.log(document.forms);
+    // console.log(document.forms[0]);
+    // console.log(document.forms.f1);
+    // console.log(document.forms['f1']);
+    let form = document.forms[0]
+    // console.log(form)
+    // console.log(form.username)
+    // console.log(form.age)
+
+    let users = [];
+
+    form.onsubmit = function (ev){
+        console.log(ev);
+        ev.preventDefault();
+        let username = ev.target.username.value;
+        let age = this.age.value
+        console.log({username, age})
+        users.push({username, age})
+    };
+
+    let btnshow = document.getElementById('btn-show-all');
+    btnshow.addEventListener('click', function (e) {                 //btnshow.onclick = function (e){ - подію onclick заміняємо на btnshow.addEventListener('click', function (e) { це для того щоб додати 2 та більше подій для цієї кнопки
+        for (const user of users) {
+            let div = document.createElement('div')
+            div.innerText = `user:nume - ${user.username}, age-${user.age}`;
+            document.body.appendChild(div)
+
+        }
+    });
+    btnshow.addEventListener('click', function (){
+        console.log('sfddsfd')
+    });
+    btnshow.addEventListener('click', function (){
+        console.log('kijiojoi')
+    })
+
+
+</script>
+
+</body>
+</html>

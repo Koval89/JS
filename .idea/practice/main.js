@@ -551,10 +551,21 @@
 
 
 
-let  arr = [11]
-arr [1]=22
-console.log(Array.isArray(arr))
-console.log(arr.length)
-console.log(arr)
-arr.push('asda', true, {})
-console.log(arr)
+// let  arr = [11]
+// arr [1]=22
+// console.log(Array.isArray(arr))
+// console.log(arr.length)
+// console.log(arr)
+// arr.push('asda', true, {})
+// console.log(arr)
+
+// let onbj={
+//     key1: 'vasya'
+// }
+//
+// function ObjCreator (value1) {
+//     this.key1=value1
+// }
+//
+// let objCreator=new ObjCreator('asdw');
+// console.log(objCreator)
